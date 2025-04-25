@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class RellenoInundacion {
 
-    final static boolean MODO_DEBUG = false;
+    final static boolean MODO_DEBUG = true;
 
     public static void main(String[] args) {
 
