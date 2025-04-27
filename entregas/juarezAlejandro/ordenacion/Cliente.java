@@ -8,22 +8,107 @@ public class Cliente {
         // System.out.println("=========================================");
         // gestor.imprimirDatosOrdenadosPorIDInsercion();
 
-        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de bubble sort");
-        // System.out.println("=========================================");
-        // gestor.imprimirDatosOrdenadosPorIDBubbleSort();
-
         // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de inserción paso
         // a paso");
         // System.out.println("=========================================");
         // gestor.imprimirDatosOrdenadosPorIDInsercionPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de bubble sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDBubbleSort();
 
         // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de bubble sort
         // paso a paso");
         // System.out.println("=========================================");
         // gestor.imprimirDatosOrdenadosPorIDBubbleSortPasoaPaso();
 
-        // Comparar tiempos de ejecución de BubbleSort e InsertionSort
-        // =========================================================
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de bucket sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDBucketSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de bucket sort
+        // paso a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDBucketSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de counting
+        // sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDCountingSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de counting sort
+        // paso a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDCountingSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de heap sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDHeapSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de heap sort paso
+        // a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDHeapSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de intro sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDIntroSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de intro sort paso
+        // a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDIntroSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de merge sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDMergeSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de merge sort paso
+        // a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDMergeSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de quick sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDQuickSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de quick sort paso
+        // a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDQuickSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de radix sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDRadixSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de radix sort paso
+        // a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDRadixSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de selection
+        // sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDSelectionSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de selection sort
+        // paso a paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDSelectionSortPasoaPaso();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de tim sort");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDTimSort();
+
+        // System.out.println("> ESTUDIANTES ORDENADOS POR ID, método de tim sort paso a
+        // paso");
+        // System.out.println("=========================================");
+        // gestor.imprimirDatosOrdenadosPorIDTimSortPasoaPaso();
+
+        System.out.println("Comparar tiempos de ejecución");
+        System.out.println(
+                "=========================================================");
+
         long inicio, fin;
 
         System.out.println("> Prueba de BubbleSort");
@@ -37,6 +122,60 @@ public class Cliente {
         gestor.imprimirDatosOrdenadosPorIDInsercion();
         fin = System.currentTimeMillis();
         System.out.println("Tiempo InsertionSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de BucketSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDBucketSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo BucketSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de CountingSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDCountingSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo CountingSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de HeapSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDHeapSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo HeapSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de IntroSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDIntroSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo IntroSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de MergeSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDMergeSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo MergeSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de QuickSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDQuickSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo QuickSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de RadixSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDRadixSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo RadixSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de SelectionSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDSelectionSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo SelectionSort: " + (fin - inicio) + " ms");
+
+        System.out.println("> Prueba de TimSort");
+        inicio = System.currentTimeMillis();
+        gestor.imprimirDatosOrdenadosPorIDTimSort();
+        fin = System.currentTimeMillis();
+        System.out.println("Tiempo TimSort: " + (fin - inicio) + " ms");
 
         // gestor.imprimirDatos();
 
