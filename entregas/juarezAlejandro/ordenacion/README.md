@@ -30,49 +30,43 @@ Existen todos los tipos de métodos de ordenación, cada una con el apartado Pas
 
 Lo mejor para observar el paso a paso, es comentar los datos y dejar solamente 4 o 5 datos, para verificar como funciona cada uno o la explicación de cada uno a continuación:
 
-**bubbleSort**
+<h3>bubbleSort ----------------------------- insertionSort</|h3>
+<img src="images/bubbleSort.jpg" width="300"> <img src="images/insertionSort.jpg" width="300">
 
-## ![bubbleSort](images/bubbleSort.jpg)
+---
 
-**insertionSort**
+<h3>bucketSort ----------------------------- countingSort</h3>
+<img src="images/bucketSort.jpg" width="300"> <img src="images/countingSort.jpg" width="300">
 
-## ![insertionSort](images/insertionSort.jpg)
+---
 
-**bucketSort**
+<h3>heapSort ------------------------------- introSort</h3>
+<img src="images/heapSort.jpg" width="300"> <img src="images/introSort.jpg" width="300">
 
-## ![bucketSort](images/bucketSort.jpg)
+---
 
-**countingSort**
+<h3>mergeSort</h3>
+<img src="images/mergeSort.jpg" width="300">
 
-## ![countingSort](images/countingSort.jpg)
+---
 
-**heapSort**
+<h3>quickSort</h3>
+<img src="images/quickSort.jpg" width="300">
 
-## ![heapSort](images/heapSort.jpg)
+---
 
-**introSort**
+<h3>radixSort</h3>
+<img src="images/radixSort.jpg" width="300">
 
-## ![introSort](images/introSort.jpg)
+---
 
-**mergeSort**
+<h3>selectionSort</h3>
+<img src="images/selectionSort.jpg" width="300">
 
-## ![mergeSort](images/mergeSort.jpg)
+---
 
-**quickSort**
-
-## ![quickSort](images/quickSort.jpg)
-
-**radixSort**
-
-## ![radixSort](images/radixSort.jpg)
-
-**selectionSort**
-
-## ![selectionSort](images/selectionSort.jpg)
-
-**timSort**
-
-![timSort](images/timSort.jpg)
+<h3>timSort</h3>
+<img src="images/timSort.jpg" width="300">
 
 ---
 
