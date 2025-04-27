@@ -30,43 +30,42 @@ Existen todos los tipos de métodos de ordenación, cada una con el apartado Pas
 
 Lo mejor para observar el paso a paso, es comentar los datos y dejar solamente 4 o 5 datos, para verificar como funciona cada uno o la explicación de cada uno a continuación:
 
-<h3>bubbleSort ----------------------------- insertionSort</|h3>
-<img src="images/bubbleSort.jpg" width="300"> <img src="images/insertionSort.jpg" width="300">
+<div align="center">
 
----
+<h2>bubbleSort</h2>
+<img src="images/bubbleSort.jpg" alt="bubbleSort" width="300"/>
 
-<h3>bucketSort ----------------------------- countingSort</h3>
-<img src="images/bucketSort.jpg" width="300"> <img src="images/countingSort.jpg" width="300">
+<h2>insertionSort</h2>
+<img src="images/insertionSort.jpg" alt="insertionSort" width="300"/>
 
----
+<h2>bucketSort</h2>
+<img src="images/bucketSort.jpg" alt="bucketSort" width="300"/>
 
-<h3>heapSort ------------------------------- introSort</h3>
-<img src="images/heapSort.jpg" width="300"> <img src="images/introSort.jpg" width="300">
+<h2>countingSort</h2>
+<img src="images/countingSort.jpg" alt="countingSort" width="300"/>
 
----
+<h2>heapSort</h2>
+<img src="images/heapSort.jpg" alt="heapSort" width="300"/>
 
-<h3>mergeSort</h3>
-<img src="images/mergeSort.jpg" width="300">
+<h2>introSort</h2>
+<img src="images/introSort.jpg" alt="introSort" width="300"/>
 
----
+<h2>mergeSort</h2>
+<img src="images/mergeSort.jpg" alt="mergeSort" width="300"/>
 
-<h3>quickSort</h3>
-<img src="images/quickSort.jpg" width="300">
+<h2>quickSort</h2>
+<img src="images/quickSort.jpg" alt="quickSort" width="300"/>
 
----
+<h2>radixSort</h2>
+<img src="images/radixSort.jpg" alt="radixSort" width="300"/>
 
-<h3>radixSort</h3>
-<img src="images/radixSort.jpg" width="300">
+<h2>selectionSort</h2>
+<img src="images/selectionSort.jpg" alt="selectionSort" width="300"/>
 
----
+<h2>timSort</h2>
+<img src="images/timSort.jpg" alt="timSort" width="300"/>
 
-<h3>selectionSort</h3>
-<img src="images/selectionSort.jpg" width="300">
-
----
-
-<h3>timSort</h3>
-<img src="images/timSort.jpg" width="300">
+</div>
 
 ---
 
