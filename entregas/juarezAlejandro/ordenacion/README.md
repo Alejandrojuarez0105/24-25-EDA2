@@ -30,6 +30,50 @@ Existen todos los tipos de métodos de ordenación, cada una con el apartado Pas
 
 Lo mejor para observar el paso a paso, es comentar los datos y dejar solamente 4 o 5 datos, para verificar como funciona cada uno o la explicación de cada uno a continuación:
 
+**bubbleSort**
+
+## ![bubbleSort](images/bubbleSort.jpg)
+
+**insertionSort**
+
+## ![insertionSort](images/insertionSort.jpg)
+
+**bucketSort**
+
+## ![bucketSort](images/bucketSort.jpg)
+
+**countingSort**
+
+## ![countingSort](images/countingSort.jpg)
+
+**heapSort**
+
+## ![heapSort](images/heapSort.jpg)
+
+**introSort**
+
+## ![introSort](images/introSort.jpg)
+
+**mergeSort**
+
+## ![mergeSort](images/mergeSort.jpg)
+
+**quickSort**
+
+## ![quickSort](images/quickSort.jpg)
+
+**radixSort**
+
+## ![radixSort](images/radixSort.jpg)
+
+**selectionSort**
+
+## ![selectionSort](images/selectionSort.jpg)
+
+**timSort**
+
+![timSort](images/timSort.jpg)
+
 ---
 
 ### Datos y curiosidades observadas
@@ -42,9 +86,9 @@ Lo mejor para observar el paso a paso, es comentar los datos y dejar solamente 4
 
 ---
 
-#### Segun las IA´s y mi opinion probando el tiempo de los métodos
+#### Segun las IA's y mi opinion probando el tiempo de los métodos
 
-Le pregunte a las IA´s cual es el orden de eficiencia y luego se hace otra tabla con mis resultados.
+Le pregunte a las IA's cual es el orden de eficiencia y luego se hace otra tabla con mis resultados.
 
 | #   | Algoritmo (ChatGPT) | #   | Algoritmo (DeepSeek) |
 | --- | ------------------- | --- | -------------------- |
